@@ -1,0 +1,669 @@
+:root {
+    --font-base: "Cormorant Upright", serif;
+    --font-alt: "Open Sans", sans-serif;
+    --color-golden: #dcca87;
+    --color-black: #0c0c0c;
+    --color-gray: #545454;
+    --color-crimson: #f5efdb;
+    --color-grey: #aaa;
+    --color-white: #fff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Roboto:wght@300&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Pinstripe&family=Baloo+2&family=Bree+Serif&family=Dancing+Script&family=Lobster&family=Oleo+Script+Swash+Caps&family=Permanent+Marker&family=Poppins:wght@200&family=Rubik&display=swap');
+
+body {
+    background-color: #0c0c0c;
+}
+
+.pagelogo img {
+    width: 12vw;
+    height: 6vw;
+}
+
+body nav {
+    height: 6vw;
+}
+
+.navlogo {
+    height: 6vw;
+}
+
+.pagelogo {
+    margin: 0vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #0c0c0c;
+    position: fixed;
+    width: 100vw;
+
+}
+
+.ulli ul {
+    display: flex;
+}
+
+.login {
+    display: flex;
+    width: 24vw;
+}
+
+.ulli ul li a {
+    color: white;
+    list-style: none;
+    text-decoration: navajowhite;
+    font-size: 15px;
+    margin: auto 2vw;
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.login1 {
+    color: white;
+    font-size: 1vw;
+    border: 1px solid #8e7f2f;
+    border-radius: 5px;
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 2vw;
+    height: 2vw;
+}
+
+.book {
+    color: white;
+    font-size: 1vw;
+    border: 1px solid #8e7f2f;
+    border-radius: 5px;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 2vw;
+    height: 2vw;
+}
+
+.ulli {
+    width: 50vw;
+    margin: auto 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlogo {
+    width: 12vw;
+}
+
+.ulli ul li a {
+    text-decoration: none;
+}
+
+.ulli ul li {
+    list-style: none;
+}
+
+.homehead {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+
+}
+
+.homecontent h1 {
+    color: #dcca87;
+    font-size: 4vw;
+}
+
+.text {
+    color: white;
+    font-size: 2vw;
+    margin-top: 1vw;
+}
+
+.btn {
+    background-color: var(--color-white);
+    border: none;
+    border-radius: 1px;
+    color: var(--color-black);
+    cursor: pointer;
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 28px;
+    outline: none;
+   
+    font-family: 'Rubik', sans-serif;
+    font-size: 1vw;
+    width: 11vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vw auto;
+}
+
+.homecontent {
+    width: 40vw;
+    margin: 2vw 3vw;
+}
+
+.homeimg {
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 2vw 3vw;
+
+}
+
+.home {
+    display: flex;
+    padding: 2vw 3vw;
+}
+
+.homeimg img {
+    width: 35vw;
+    height: 18vw;
+    border-bottom-right-radius: 2vw;
+    margin-top: 3vw;
+    border-top-left-radius: 2vw;
+}
+
+.homehead {
+    font-size: 2vw;
+    margin-left: 3vw;
+}
+
+.homecontent i {
+    width: 8vw;
+    height: 4vw;
+    margin-left: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dcca87;
+}
+
+.about1 {
+    width: 25vw;
+    margin: 10vw auto;
+    color: #dcca87;
+    font-family: 'Bree Serif', serif;
+}
+
+.history {
+    width: 25vw;
+    margin: 10vw auto;
+    color: #dcca87;
+    font-family: 'Bree Serif', serif;
+}
+
+.aboutimg {
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about {
+    display: flex;
+    padding: 2vw 15vw;
+    background-image: url("aboutbg.png");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.aboutimg img {
+    height: 35vw;
+    width: 5vw;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+    margin-bottom: 4vw;
+}
+
+.menu {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #dcca87;
+    font-family: 'Baloo 2', cursive;
+}
+
+.menuimg img {
+    width: 21vw;
+    height: 41vw;
+    margin-left: 2vw;
+}
+
+.menubox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wine {
+    width: 33vw;
+}
+
+.menuimg {
+    width: 25vw;
+}
+
+.cocktail {
+    width: 33vw;
+}
+
+.menuitem {
+    display: flex;
+    font-size: 15px;
+
+}
+
+.menuitem1 {
+    width: 20vw;
+    font-size: 2vw;
+}
+
+.wine .dash {
+    width: 5vw;
+    height: 1px;
+    background-color: #dcca87;
+    margin: 1vw 2vw 0vw 2vw;
+}
+
+.menutext {
+    width: 91vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.menutext p {
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+    align-items: center;
+}
+
+
+text {
+    margin: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menutext h2 {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wine {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menuhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin-bottom: 2vw;
+    color: var(--color-white);
+}
+
+.price {
+    font-size: 2vw;
+    color: var(--color-white);
+}
+
+.sub {
+    font-size: 1vw;
+    font-weight: lighter;
+    margin-bottom: 2vw;
+    height: 2vw;
+    color: rgb(170, 170, 170);
+}
+
+.chef {
+    background-image: url("aboutbg.png");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.chefleft img {
+
+    width: 28vw;
+    height: 33vw;
+}
+
+.chef {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+
+    color: #f5efdb;
+}
+
+.chefleft {
+    width: 30vw;
+}
+
+.chefright {
+    width: 50vw;
+    margin-left: 4vw;
+    padding: 2vw;
+}
+
+.chefright p {
+    color: #f5efdb;
+}
+
+.chefright h2 {
+    color: #dcca87;
+    margin: 2vw;
+}
+
+.text img {
+    width: 2vw;
+    height: 2vw;
+}
+
+.chefname {
+    font-size: 23px;
+    color: #dcca87;
+}
+
+.chefsub {
+    color: #f5efdb;
+    font-size: 13px;
+}
+
+.chefright img {
+    width: 4vw;
+    height: 3vw;
+    margin-bottom: 1vw;
+    color: #f5efdb;
+}
+
+.sign img {
+    width: 9vw;
+    height: 5vw;
+}
+
+.rank {
+    width: 3vw;
+    height: 3vw;
+}
+
+.awardleft {
+    width: 50vw;
+    padding-left: 2vw;
+    margin-right: 10vw;
+    margin-top: 4vw;
+}
+
+.position {
+    margin: 3vw 2vw;
+}
+
+.award {
+    display: flex;
+    padding: 2vw;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.awardleft .text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awardleft h2 {
+    color: #dcca87;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vw;
+}
+
+.award1-2 img {
+    width: 3vw;
+    height: 3vw;
+}
+
+.award1-2 {
+    display: flex;
+}
+
+.head {
+
+    font-size: 2vw;
+    color: rgb(220, 202, 135);
+}
+
+.award1-2 .text {
+    font-size: 2vw;
+    margin: 0px;
+}
+
+.rank {
+    margin-top: 4vw;
+    margin-right: 1vw;
+}
+
+.awardright img {
+    width: 35vw;
+    height: 40vw;
+    border-bottom-right-radius: 2vw;
+    border-top-right-radius: 2vw;
+
+}
+
+.footer {
+    background-image: url("aboutbg.png");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.email {
+    background-color: #0c0c0c;
+    width: 66vw;
+    margin: 6vw;
+    border: 1px solid var(--color-golden);
+    border-radius: 1vw;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.email p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+}
+
+.email h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw;
+    margin: 2vw;
+    color: #dcca87;
+}
+
+.slog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #f5efdb;
+}
+
+#input {
+    width: 26vw;
+    font-size: 10px;
+    height: 3vw;
+    margin: 3vw;
+    border: 1px solid var(--color-golden);
+    padding-left: 2vw;
+    border-radius: 1vw;
+    background-color: #0c0c0c;
+    color: white;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input button {
+    margin: 0px;
+}
+
+.bottom {
+    color: #f5efdb;
+    display: flex;
+
+    width: 80vw;
+    border-top: 1px solid var(--color-golden);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.mid img {
+    width: 12vw;
+    height: 6vw;
+    margin: 1vw 7vw;
+}
+
+.contact {
+    width: 30vw;
+
+    margin-top: 2vw;
+
+}
+
+.contacthead {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+}
+
+.mid {
+    width: 30vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.mid p {
+    margin-left: 3vw;
+    font-size: 15px;
+}
+
+.contactitem {
+    font-size: 15px;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5efdb;
+    height: 12vw;
+}
+
+.copy p {
+    font-size: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: auto;
+    margin-top: 2vw;
+}
+
+.logo i {
+    margin: auto 1vw;
+    font-size: 2vw;
+}
+.item1 {
+    display: flex;
+    }
+    span.logo {
+    margin: 0px;
+    }
+    
+    .phone{
+    margin-top: 5px;
+    font-size: 15px;
+    }
+
+.ulli ul li a:hover {
+    color: #dcca87;
+    text-decoration: underline;
+}
+
+.login1:hover {
+    background-color: #dcca87;
+    color: #0c0c0c;
+}
+
+.book:hover {
+    background-color: #dcca87;
+    color: #0c0c0c;
+}
+
+.btn:hover {
+    background-color: #dcca87;
+}
+.logo i:hover{
+    color: #cf8e8e;
+}
+.phone:hover{
+    color: #dcca87;
+    text-decoration: underline;
+}

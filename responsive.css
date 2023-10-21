@@ -1,0 +1,156 @@
+@media only screen and (max-width: 650px) {
+    .ulli ul li a {
+        font-size: 2vw;
+    }
+
+    .login1 {
+
+        font-size: 1vw;
+        height: 4vw;
+    }
+
+    .book {
+
+        font-size: 1vw;
+        height: 4vw;
+    }
+
+    .login {
+        margin: auto;
+    }
+
+    .btn {
+        padding: 0px;
+
+    }
+
+    .text {
+        font-size: 2vw;
+    }
+
+    .homehead {
+
+        font-size: 3vw;
+    }
+
+    .homecontent i {
+        height: 10vw;
+    }
+
+    .btn {
+        font-size: 1vw;
+    }
+
+    .menubox {
+        display: grid;
+    }
+
+    .menuhead {
+
+        font-size: 4vw;
+    }
+
+    .menuitem1 {
+        width: 42vw;
+        font-size: 3vw;
+    }
+
+    .wine .dash {
+        margin: 2vw 6vw 0vw 2vw;
+    }
+
+    .price {
+        font-size: 3vw;
+    }
+
+    .sub {
+        font-size: 2vw;
+        height: 3vw;
+    }
+
+    .menutext {
+        margin-bottom: 4vw;
+    }
+
+    .menuitem {
+        width: 70vw;
+    }
+
+    .menuimg img {
+
+        width: 28vw;
+    }
+
+    .menuimg button {
+        margin-left: 11vw;
+    }
+
+    .chefright h2 {
+        font-size: 4vw;
+    }
+
+    .chefname {
+
+        font-size: 4vw;
+    }
+
+    .chefright p {
+        font-size: 2vw;
+    }
+
+    .awardleft h2 {
+        font-size: 6vw;
+    }
+
+    .head {
+
+        font-size: 3vw;
+    }
+
+    .award1-2 .text {
+
+        font-size: 2vw;
+    }
+
+    .award1-2 {
+
+        width: 56vw;
+    }
+
+    .position {
+
+        margin: 1vw 2vw;
+
+    }
+
+    .award1-2 img {
+
+        width: 4vw;
+        height: 4vw;
+    }
+
+    .awardright img {
+        margin-top: 9vw;
+    }
+    .contactitem {
+        font-size: 2vw;
+        }
+    .mid p{
+        font-size: 2vw;
+    }
+    .copy p{
+        font-size: 2vw;
+    }
+    #input{
+        font-size: 2vw;
+    }
+    .phone{
+        margin-top: 0px;
+        font-size: 2vw;
+    }
+
+
+
+
+
+}
